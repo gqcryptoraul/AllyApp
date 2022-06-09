@@ -39,6 +39,7 @@ export default function PrincipalScreen(props) {
           fontSize: 30,
           marginTop: 200,
           fontFamily: 'Poppins-Bold',
+          color: 'black',
         }}>
         Bienvenido{'\n' + login.usuario.email}
       </Text>
